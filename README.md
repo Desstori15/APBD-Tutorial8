@@ -31,31 +31,7 @@ This is a REST API project built in C# using ASP.NET Core, implementing ADO.NET 
 
 ---
 
-## How to Run
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Desstori15/APBD-Tutorial8.git
-Navigate to the project folder:
-cd APBD-Tutorial8/Tutorial8
-Update appsettings.json with your database connection string:
-"ConnectionStrings": {
-    "DefaultConnection": "Server=YOUR_SERVER;Database=YOUR_DATABASE;User Id=YOUR_USER;Password=YOUR_PASSWORD;"
-}
-Run the project:
-dotnet run
-Access the API:
-GET all trips → /api/trips
-GET client trips → /api/clients/{id}/trips
-POST create client → /api/clients
-PUT register client to trip → /api/clients/{id}/trips/{tripId}
-DELETE remove client from trip → /api/clients/{id}/trips/{tripId}
-Tools for Testing
-
-Postman
-cURL
-Rider or Visual Studio .http files
-Author
+## Author
 
 Vladislav Dobriyan
 GitHub: Desstori15

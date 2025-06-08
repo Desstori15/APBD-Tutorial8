@@ -1,0 +1,16 @@
+# Build artifacts
+**/bin/
+**/obj/
+
+# Rider / VS
+.idea/
+*.sln.iml
+*.user
+*.suo
+*.log
+.vscode/
+*.vs/
+.DS_Store
+
+# Test results
+TestResults/
